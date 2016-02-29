@@ -1,4 +1,3 @@
-
 <div class="container">
 	<h2 class="title text-center">$25,000 Back Stimulus Program!</h2>
 	<div class="row no-dev">
