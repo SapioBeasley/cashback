@@ -2,8 +2,8 @@
 	<div class="row">
 		<div class="col-md-12 dark-bg">
 			<div class="slogan">
-				<h1>Get up to $20,000 <b>Cash Back</b></h1>
-				<p><b>Find your new dream home &amp; get 1% of Sale Price Back up to $20,000! <br>
+				<h1>Get up to $25,000 <b>Cash Back</b></h1>
+				<p><b>Find your new dream home &amp; get 2% of Sale Price Back up to $25,000! <br>
 					This EXCLUSIVE new home stimulus program is only available here. Act Now!</b></p>
 			</div>
 		</div>

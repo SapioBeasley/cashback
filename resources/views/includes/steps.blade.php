@@ -17,7 +17,7 @@
 			<i class="icon icon-wallet2"></i>
 			<h4><strong>Step 3</strong></h4>
 			{{-- <h4>RECEIVE</h4> --}}
-			<p>Close on your house and GET PAID upto $20,000! This is on top of any other builder incentives!</p>
+			<p>Close on your house and GET PAID upto $25,000! This is on top of any other builder incentives!</p>
 		</div>
 	</div>
 </div>
