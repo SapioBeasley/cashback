@@ -11,5 +11,9 @@
 |
 */
 
-Route::post('mail', 'HomesController@mail');
+Route::post('mail', [
+	'as' => 'mail',
+	'uses' => 'HomesController@mail'
+]);
+
 Route::resource('/', 'HomesController');

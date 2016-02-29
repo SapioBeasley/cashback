@@ -8,6 +8,12 @@
 
 	<!-- INTRO CENTER FORM -->
 	<header id="intro-center-form" class="intro-block cover-bg text-center" style="background-image:url(images/bg10.jpg)">
+		@if (session('success_message'))
+		    <div class="alert alert-success">
+		        {{ session('success_message') }}
+		    </div>
+		@endif
+
 		@include('includes.intro')
 	</header>
 

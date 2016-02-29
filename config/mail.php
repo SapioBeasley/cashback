@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'from' => ['address' => null, 'name' => null],
+    'from' => ['address' => env('MAIL_USERNAME', 'andreas@sapioweb.com'), 'name' => 'Cashback Lead Gen'],
 
     /*
     |--------------------------------------------------------------------------

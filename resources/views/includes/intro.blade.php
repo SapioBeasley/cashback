@@ -10,7 +10,7 @@
 		<div class="col-md-6 col-md-offset-3">
 			<div class="form-container">
 				<h3 class="title">Find out More Here</h3>
-				{!! Form::open(['action' => ['HomesController@mail'], 'required']) !!}
+				{!! Form::open(['route' => 'mail', 'required']) !!}
 					<div class="form-group">
 						{!! Form::text('name', null, ['class' => 'form-control',  'id' => 'contact_name', 'placeholder' => 'Full name', 'required']) !!}
 					</div>

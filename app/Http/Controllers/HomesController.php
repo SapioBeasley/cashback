@@ -86,6 +86,13 @@ class HomesController extends Controller
     public function mail()
     {
         $data = Request::all();
-        dd($data);
+
+        \Mail::send('emails.inquire', ['data' => $data], function ($message) use ($data)
+        {
+            $message->from('inquire@jacobsgroupvegas.com', '[INQUIRE CASHBACK] ' . $data['name']);
+            $message->to(env('MAIL_USERNAME', 'andreas@sapioweb.com'), 'Lead Gen')->subject('[INQUIRE CASHBACK] ' . $data['name']);
+        });
+
+        return redirect()->route('index')->with('success_message', 'Your Inquire has been successfully sent. We will be in contact shortly.');
     }
 }
